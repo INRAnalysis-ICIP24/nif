@@ -6,7 +6,7 @@ model:
 fitting:
   tuning:
     patching: 2
-        loss: &loss
+    loss: &loss
       components:
         - type: l1
           weight: 0.8

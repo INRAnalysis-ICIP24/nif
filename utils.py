@@ -196,7 +196,7 @@ def pad_for_patching(tensor, patching):
         width_padding // 2, 
         width_padding // 2 + width_padding % 2, 
         height_padding // 2, 
-        height_padding // 2 + width_padding % 2
+        height_padding // 2 + height_padding % 2
     )
 
     padded_tensor = torch.nn.functional.pad(tensor, padding, "replicate")

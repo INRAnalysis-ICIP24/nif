@@ -2,4 +2,4 @@
 
 This is a fork of [NIF](https://github.com/aegroto/nif) for the IEEE ICIP 2024 paper "Redefining Visual Quality: The Impact of Loss Functions On INR-Based Image Compression". 
 It contains some modifications to the launch scripts and various configurations for the different loss functions assessed.
-Please refer to the original repository for the original and official implementation.
+Please refer to the original repository for the official implementation.
